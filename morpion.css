@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+img {
+    width: 100%;
+    height: auto;
+  }
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background{
+    display: flex;
+    flex-wrap : wrap;
+    background-color: gray;
+    height: 500px;
+    width: 500px;
+    justify-content : space-around;
+}
+.case{
+    margin: 5px;
+    display: flex;
+    background-color: blanchedalmond ;
+    align-items :center;
+    justify-content :center;
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+}
